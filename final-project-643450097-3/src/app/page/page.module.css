@@ -1,0 +1,92 @@
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  grid-gap: 2rem;
+}
+
+.col {
+  border: 1px solid #000000;
+  background: #eaf1ff; 
+  padding: 2rem;
+  border-radius: 10px;
+  width: calc(33.33% - 4rem); /* คำนวณความกว้างของคอลัมน์ (33.33% - 2 * 2rem) */
+  height: 400px; /* กำหนดความสูงตามต้องการ */
+  box-shadow: 2px 2px 5px #0059ff;
+}
+.col:hover
+{
+  box-shadow: 0 0px 15px #0059ff;
+}
+
+.button {
+  bottom:0px;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 8px;
+  color: rgb(0, 0, 0);
+  padding: 6px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button:hover
+{
+  background-color: #329636;
+}
+
+.buttonedit
+{
+  bottom:0px;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 8px;
+  color: rgb(0, 0, 0);
+  padding: 5px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.buttonedit:hover
+{
+  background-color: #329636;
+}
+
+.buttondelete
+{
+  bottom:0px;
+  background-color: #f44336;
+  border: none;
+  border-radius: 8px;
+  color: rgb(0, 0, 0);
+  padding: 5px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.buttondelete:hover
+{
+  background-color: #f71f0f;
+}
+
+
+
+
+
+
